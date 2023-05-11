@@ -1,4 +1,4 @@
-# AtlusPak - A dependency mod for KH3 custom map compatability
+# AtlasPak - A dependency mod for KH3 custom map compatability
 
 ## What this mod does?
 
