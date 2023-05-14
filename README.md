@@ -22,7 +22,7 @@ Add your map fields by pulling down this repo, creating a new branch, modifying 
 
 ## Uploading your map:
 
-When using AtlasPak and uploading to nexus, be sure to do the following:
+When you upload your map to nexus, be sure to do the following:
 
 - Link MapPak as a dependency on nexus
 - ***DO NOT COOK ATLASPAK ASSETS IN YOUR TRES-GAME***
