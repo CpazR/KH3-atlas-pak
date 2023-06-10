@@ -32,3 +32,4 @@ When you upload your map to nexus, be sure to do the following:
   - `UI/Data/AreaSelectData`
   - `UI/Data/SaveMenuFaceIcon`
   - `UI/Data/WorldIconName`
+  - `Mods/AtlasPak`
