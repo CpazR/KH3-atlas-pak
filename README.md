@@ -1,35 +1,16 @@
-# AtlasPak - A dependency mod for KH3 custom map compatability
+# Kingdom Hearts III Modding Project
 
-## What this mod does?
+An unreal project for modding Kingdom Hearts III
 
-The purpose of this mod is to organize, manage and maintain datatables that map mods will require to edit to function and work together without conflicts.
+# Discord Server
 
-## How to use this mod?
+Join the OpenKH [discord server](https://discord.openkh.dev) to learn more about modding.
 
-### For modders:
 
-### TODO: Finalize this
+# Installation
 
-For map modders, it should be as simple as copying the contents of the `projectAssets` folder into your `contents` folder in your Tres game project.
+For setting up the project, documentation, or anything in between, please check the [Wiki](https://github.com/KH3-Modding-Org/OpenKH3Modding/blob/main/uProject%20and%20Engine%20Installation.md#2-github-clone-install---update-with-the-click-of-a-button)
 
-**DO NOT MODIFY THEESE ASSETS!** This is simply for compatability between different map mods.
+# Disclaimer
 
-## Adding your maps:
-
-### TODO: Add more robust how-to's on what data table adds what.
-
-Add your map fields by pulling down this repo, creating a new branch, modifying the datatables to include your map (do not remove any other entries without permission), and create a pull request for your changes to be reviewed.
-
-## Uploading your map:
-
-When you upload your map to nexus, be sure to do the following:
-
-- Link MapPak as a dependency on nexus
-- ***DO NOT COOK ATLASPAK ASSETS IN YOUR TRES-GAME***
-- Can exclude by going to edit -> project settings -> project -> packaging -> directories to never cook and add the following:
-  - `System/TresAreaNameTable`
-  - `System/TresMapNameTable`
-  - `UI/Data/AreaSelectData`
-  - `UI/Data/SaveMenuFaceIcon`
-  - `UI/Data/WorldIconName`
-  - `Mods/AtlasPak`
+This software is provided by the author "as is". In no event shall the author be liable for any direct, indirect, incidental, special, exemplary, or consequential damages (including, but not limited to procurement of substitute goods or services; loss of use, data, or profits; or business interruption) however caused and on any theory of liability, whether in contract, strict liability, or tort (including negligence or otherwise) arising in any way out of the use of this software, even if advised of the possibility of such damage.
