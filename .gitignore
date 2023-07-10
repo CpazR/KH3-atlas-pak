@@ -170,3 +170,6 @@ Binaries/Win64/TresGame.target
 Build/WindowsNoEditor/ChunkLayerInfo/pakchunklayers.txt
 *.lib
 *.exe
+
+# Pak building files
+!UnrealPak.exe
