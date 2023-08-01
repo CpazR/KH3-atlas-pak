@@ -18,13 +18,15 @@ For map modders, it should be as simple as copying the contents of the `projectA
 
 ### TODO: Add more robust how-to's on what data table adds what.
 
-Add your map fields by pulling down this repo, creating a new branch, modifying the datatables to include your map (do not remove any other entries without permission), and create a pull request for your changes to be reviewed.
+Add your map fields by pulling down this repo, creating a new branch, modifying the datatables to include your map (do not remove any other entries without permission), and create a pull request for your changes to be reviewed, merged, and uploaded in a new version of AtlasPak.
+
+### TODO: Consider adding conditions for merging user submitted entries. Want to avoid dead Atlas entries for maps that might never get released.
 
 ## Uploading your map:
 
 When you upload your map to nexus, be sure to do the following:
 
-- Link MapPak as a dependency on nexus
+- Link AtlasPak as a dependency on nexus
 - ***DO NOT COOK ATLASPAK ASSETS IN YOUR TRES-GAME***
 - Can exclude by going to edit -> project settings -> project -> packaging -> directories to never cook and add the following:
   - `System/TresAreaNameTable`
@@ -32,4 +34,4 @@ When you upload your map to nexus, be sure to do the following:
   - `UI/Data/AreaSelectData`
   - `UI/Data/SaveMenuFaceIcon`
   - `UI/Data/WorldIconName`
-  - `Mods/AtlasPak`
+  - `Mods/AtlasPak/**`
