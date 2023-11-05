@@ -14,6 +14,10 @@ For map modders, it should be as simple as copying the contents of the `projectA
 
 **DO NOT MODIFY THEESE ASSETS!** This is simply for compatability between different map mods.
 
+## Adding Compatible Gummi Worlds:
+In order to add gummi worlds to the gummi space, you can follow this simple guide. Just as with every other map mod, do not upload these assets or data tables in your mod. We will update the data tables in this mod that you will direct your mod downloaders to.
+Guide: https://docs.google.com/document/d/14njJoIIYxajC7u4JY0j1zSX5YG0HARQT0u1Jw43hh7I/edit?usp=sharing
+
 ## Adding your maps:
 
 ### TODO: Add more robust how-to's on what data table adds what.
@@ -23,6 +27,8 @@ Add your map fields by pulling down this repo, creating a new branch, modifying 
 ### TODO: Consider adding conditions for merging user submitted entries. Want to avoid dead Atlas entries for maps that might never get released.
 
 ## Uploading your map:
+
+Make a pull request to this repo using your modified data table. We will make sure it is correct, approve it, and then reupload atlas pak to Nexus. In your mod, do not include any of these data tables or assets. On your mod page, you must put in the requirements that users download this mod. This insures that everyone's map mods are compatible with each other.
 
 When you upload your map to nexus, be sure to do the following:
 
